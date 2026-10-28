@@ -1,0 +1,62 @@
+{
+  "data": {
+    "source": "M5 Forecasting (Walmart), public",
+    "stores": [
+      "CA_1",
+      "CA_2",
+      "CA_3"
+    ],
+    "category": "FOODS",
+    "n_series": 2369,
+    "n_items": 992,
+    "history_days": 730,
+    "first_day": "2014-05-24",
+    "last_day": "2016-05-22",
+    "test_days": 112,
+    "test_window": [
+      "2016-02-01",
+      "2016-05-22"
+    ],
+    "flagged_stockout_day_share": 0.10969890769470964,
+    "series_with_flags_share": 0.941747572815534
+  },
+  "segment_counts": {
+    "AY": 524,
+    "AX": 471,
+    "BY": 438,
+    "CY": 280,
+    "BX": 195,
+    "CZ": 171,
+    "BZ": 123,
+    "AZ": 95,
+    "CX": 72
+  },
+  "tuned_csl": {
+    "AX": 0.95,
+    "AY": 0.95,
+    "AZ": 0.9,
+    "BX": 0.95,
+    "BY": 0.95,
+    "BZ": 0.9,
+    "CX": 0.95,
+    "CY": 0.9,
+    "CZ": 0.9
+  },
+  "assumptions": {
+    "gross_margin": 0.3,
+    "holding_rate_annual": 0.18,
+    "base_lead_time_days": 1,
+    "shelf_life_days": 5,
+    "stress_lead_times": [
+      1,
+      2,
+      3
+    ],
+    "stress_lead_probs": [
+      0.6,
+      0.3,
+      0.1
+    ]
+  },
+  "runtime_sec": 225.5
+}
